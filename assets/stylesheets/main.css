@@ -160,4 +160,11 @@ a {
   display: inline-block;
   text-decoration: none;
 }
+
+h1 a {
+  color: #414141;
+  font-family: 'Dosis', sans-serif;
+  text-decoration: none;
+  font-size: 2rem;
+}
 /*# sourceMappingURL=main.css.map */
