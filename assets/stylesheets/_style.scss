@@ -10,12 +10,19 @@ body {
 // BUTTON COMMONS
 
 .btn {
-  height: 47px;
-  width: 175px;
+  height: 50px;
+  width: 170px;
   border-radius: 30px;
-  border-style: none;
-  font-weight: bold;
+  font-weight: 700;
+  color: rgb(53, 53, 53);
+  border: 4px solid rgb(53, 53, 53);
+  margin-top: 60px;
+  text-transform: uppercase;
   cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #aaaaaa;
 }
 
 //              NAVIGATION BAR
@@ -60,4 +67,40 @@ nav {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   height: 900px;
+  background-color: #ffefe7;
+}
+
+.heroImg {
+  background: url(../images/hero-img.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.heroRight {
+  margin: 320px 50px;
+}
+
+.heroRight h3 {
+  color: rgb(196, 196, 196);
+  font-size: 20px;
+}
+
+.heroRight h2 {
+  color: rgb(42, 42, 42);
+  font-size: 35px;
+  font-weight: 300;
+  padding: 5px 0 15px 0;
+}
+
+.heroRight span {
+  font-weight: 600;
+}
+
+.heroRight p {
+  color: #c4c4c4;
+  line-height: 1.5;
+}
+
+.heroBtn {
+  background-color: #ffefe7;
 }
