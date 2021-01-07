@@ -115,6 +115,7 @@ nav {
     grid-template-columns: 2fr 1fr 1fr;
 }
 
+// COL 1
 .skillsGrid .col1 {
     padding: 45px;
 }
@@ -134,12 +135,14 @@ nav {
     line-height: 1.5;
 }
 
+// COL 2
 .skillsGrid .col2 {
     background: url(../images/skills-img.jpg);
     background-position: center;
     background-size: cover;
 }
 
+// COL 3
 .skillsGrid .col3 {
     padding: 45px 30px;
     background-color: #FFC956;
@@ -158,6 +161,7 @@ nav {
     padding: 20px 0 15px 0;
 }
 
+// PROGRESS BAR
 .flex {
     display: flex;
     justify-content: space-between;
@@ -195,6 +199,5 @@ footer p {
 
 footer i {
     padding: 5px 18px;
-    font-size: 20px
-    ;
+    font-size: 20px;
 }
