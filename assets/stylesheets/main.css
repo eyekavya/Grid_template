@@ -176,6 +176,11 @@ body {
   cursor: pointer;
 }
 
+.absolute {
+  position: absolute;
+  width: 100%;
+}
+
 nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -183,6 +188,7 @@ nav {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin: 25px 55px;
 }
 
 .logo a,
@@ -205,5 +211,13 @@ nav {
 
 .menu {
   font-size: 13px;
+}
+
+.hero {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  height: 900px;
 }
 /*# sourceMappingURL=main.css.map */

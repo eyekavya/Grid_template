@@ -20,9 +20,15 @@ body {
 
 //              NAVIGATION BAR
 
+.absolute {
+  position: absolute;
+  width: 100%;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
+  margin: 25px 55px;
 }
 
 // LOGO & MENU
@@ -46,5 +52,12 @@ nav {
 }
 
 .menu {
-    font-size: 13px;
+  font-size: 13px;
+}
+
+//              HERO SECTION
+.hero {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 900px;
 }
