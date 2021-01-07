@@ -233,6 +233,7 @@ nav {
   background: url(../images/hero-img.jpg);
   background-position: center;
   background-size: cover;
+  height: 900px;
 }
 
 .heroRight {
@@ -262,5 +263,32 @@ nav {
 
 .heroBtn {
   background-color: #ffefe7;
+}
+
+.skillsGrid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 1fr 1fr;
+      grid-template-columns: 2fr 1fr 1fr;
+  height: 375px;
+}
+
+.skillsGrid .col1 h2 {
+  font-size: 32px;
+  padding: 40px;
+}
+
+.skillsGrid .col1 h3 {
+  color: #f5c38b;
+}
+
+.skillsGrid .col1 p {
+  color: #A0A0A0;
+}
+
+.skillsGrid .col2 {
+  background: url(../images/skills-img.jpg);
+  background-position: center;
+  background-size: cover;
 }
 /*# sourceMappingURL=main.css.map */
