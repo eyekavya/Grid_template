@@ -309,6 +309,22 @@ progress::-webkit-progress-value {
   background-color: #ff7d56;
 }
 
+// FORM
+form input, form textarea {
+  width: 80%;
+  padding: 10px;
+  border-bottom: 1px solid #ffc956;
+  background-color: transparent;
+  color: white;
+  margin-top: 20px;
+  font-size: 16px;
+}
+form input::placeholder, form textarea::placeholder {
+  color: #c4c4c4;
+}
+
+
+
 // IMAGE COLUMN
 .feed-img {
   background: url(../images/contact-img.jpg);
