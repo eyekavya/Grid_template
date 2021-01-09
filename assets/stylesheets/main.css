@@ -424,7 +424,8 @@ progress::-webkit-progress-value {
   font-weight: 400;
 }
 
-.expEduGrid p, .expEduGrid h3 {
+.expEduGrid p,
+.expEduGrid h3 {
   font-size: 16px;
 }
 
@@ -469,7 +470,8 @@ progress::-webkit-progress-value {
   background-color: #ff7d56;
 }
 
-form input, form textarea {
+form input,
+form textarea {
   width: 80%;
   padding: 10px;
   border-bottom: 1px solid #ffc956;
@@ -479,19 +481,23 @@ form input, form textarea {
   font-size: 16px;
 }
 
-form input::-webkit-input-placeholder, form textarea::-webkit-input-placeholder {
+form input::-webkit-input-placeholder,
+form textarea::-webkit-input-placeholder {
   color: #c4c4c4;
 }
 
-form input:-ms-input-placeholder, form textarea:-ms-input-placeholder {
+form input:-ms-input-placeholder,
+form textarea:-ms-input-placeholder {
   color: #c4c4c4;
 }
 
-form input::-ms-input-placeholder, form textarea::-ms-input-placeholder {
+form input::-ms-input-placeholder,
+form textarea::-ms-input-placeholder {
   color: #c4c4c4;
 }
 
-form input::placeholder, form textarea::placeholder {
+form input::placeholder,
+form textarea::placeholder {
   color: #c4c4c4;
 }
 
@@ -540,5 +546,33 @@ footer p {
 footer i {
   padding: 5px 18px;
   font-size: 20px;
+}
+
+@media all and (max-width: 720px) {
+  body {
+    font-size: 12px;
+    overflow-x: hidden;
+  }
+  .menu {
+    display: none;
+  }
+  .hero,
+  .skillsGrid,
+  .fieldGrid,
+  .expEduGrid, .last {
+    width: 100%;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .map, .frame {
+    width: 100%;
+  }
+  footer {
+    width: 100%;
+  }
+  footer i {
+    padding: 5px 10px;
+    font-size: 16px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
