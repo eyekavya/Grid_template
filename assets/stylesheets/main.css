@@ -286,7 +286,7 @@ nav {
 }
 
 .skillsGrid .col1 p {
-  color: #A0A0A0;
+  color: #a0a0a0;
   padding-top: 30px;
   line-height: 1.5;
 }
@@ -299,10 +299,11 @@ nav {
 
 .skillsGrid .col3 {
   padding: 45px 30px;
-  background-color: #FFC956;
+  background-color: #ffc956;
 }
 
-.skillsGrid .col3 h2, .skillsGrid .col3 h3 {
+.skillsGrid .col3 h2,
+.skillsGrid .col3 h3 {
   color: white;
 }
 
@@ -342,6 +343,106 @@ progress::-webkit-progress-bar {
 
 progress::-webkit-progress-value {
   background-color: black;
+}
+
+.fieldGrid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+}
+
+.fieldGrid div {
+  text-align: center;
+  color: white;
+  padding: 50px 30px 55px 30px;
+  font-size: 36px;
+}
+
+.fieldGrid h3 {
+  font-size: 25px;
+  line-height: 4;
+}
+
+.fieldGrid p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.fieldGrid .col1 {
+  background-color: #ffc956;
+}
+
+.fieldGrid .col2 {
+  background-color: #ff7d56;
+}
+
+.fieldGrid .col3 {
+  background-color: #000;
+}
+
+.fieldGrid .col4 {
+  color: black;
+}
+
+.fieldGrid .col4 p {
+  color: #aaaaaa;
+}
+
+.expEduGrid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  color: white;
+}
+
+.exp {
+  background-color: #ff7d56;
+  font-size: 22px;
+  padding: 50px 0px 20px 30px;
+}
+
+.edu {
+  background-color: #ffc956;
+  font-size: 22px;
+  padding: 50px 0px 20px 30px;
+}
+
+.exp h2 {
+  font-size: 45px;
+  margin-bottom: 35px;
+}
+
+.exp h3 {
+  margin-bottom: 50px;
+}
+
+.exp span {
+  font-size: 28px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.exp p, .exp h3 {
+  font-size: 16px;
+}
+
+.exp p {
+  margin-bottom: 35px;
+  margin-left: 30px;
+}
+
+.exp-img {
+  background: url(../images/experience-img.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.edu-img {
+  background: url(../images/education-img.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 footer {
