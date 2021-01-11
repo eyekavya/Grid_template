@@ -357,7 +357,8 @@ form textarea::placeholder {
 //                  MAP SECTION
 .map {
   background-color: rgb(255, 125, 86);
-  padding: 45px 225px;
+  padding: 45px 0;
+  text-align: center;
 }
 
 //                  FOOTER
@@ -382,7 +383,7 @@ footer i {
     font-size: 12px;
     overflow-x: hidden;
   }
-  .menu{
+  .menu ul{
     display: none;
   }
   .hero,
@@ -392,8 +393,19 @@ footer i {
     width: 100%;
     grid-template-columns: 1fr;
   }
+  .hero{
+    height: 200vh;
+  }
+  .heroImg{
+    height: 100vh;
+  }
+  .heroRight{
+    height: 70vh;
+    margin: 20% 50px;
+  }
   .map, .frame{
     width: 100%;
+    padding: 20px;
   }
   footer{
     width: 100%;

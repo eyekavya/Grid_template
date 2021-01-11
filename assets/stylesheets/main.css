@@ -530,7 +530,8 @@ form textarea::placeholder {
 
 .map {
   background-color: #ff7d56;
-  padding: 45px 225px;
+  padding: 45px 0;
+  text-align: center;
 }
 
 footer {
@@ -553,7 +554,7 @@ footer i {
     font-size: 12px;
     overflow-x: hidden;
   }
-  .menu {
+  .menu ul {
     display: none;
   }
   .hero,
@@ -564,8 +565,19 @@ footer i {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
   }
+  .hero {
+    height: 200vh;
+  }
+  .heroImg {
+    height: 100vh;
+  }
+  .heroRight {
+    height: 70vh;
+    margin: 20% 50px;
+  }
   .map, .frame {
     width: 100%;
+    padding: 20px;
   }
   footer {
     width: 100%;
